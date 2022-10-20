@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    background-color: white;
+    padding: 10px;
+    display: flex;
+    flex-direction:column;
+    justify-content:space-between;
+    align-content: space-between;
+
+    }
+
+.item {
+    margin: 30px;
+    padding: 40px;
+    width: 30px;
+    height: 30px;
+    background-color: red;
+}
+
+#item-2 {
+    align-self:center;
+}
+
+#item-3 {
+    align-self: flex-end;
+}
